@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 1920px;
+    height: 2278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F9EBEB;
+    align-items: center;
+}
+
+.content-rect{
+    background-color: #2EAF78;
+    width: 1640px;
+    height: 400px;
+    border: 20px solid #FFFCFC;
+    border-radius: 60px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    height: 294px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card > p{
+    margin-top: 18px;
+    font-size: 24px;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.personal-meals > button{
+    margin-top: 72px;
+}
+
+.how-long > button{
+    margin-top: 72px;
+}
+
+.how-long > p{
+    font-size: 36px;
+}
+
+
+.main p{
+    font-family: 'FiraGO', sans-serif;
+}
+
+.main button{
+    width: 219px;
+    height: 53px;
+    font-size: 24px;
+    background: #F9EBEB;
+    border: 3px solid #35B47E;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.main button:hover{
+    background-color: #35B47E;
+    color: white;
+}
+
+.personal-meals > p{
+    font-size: 36px;
+}
+
+.w-calculator > p{
+    font-size: 36px;
+}
+
+.calculator-rect{
+    background-color: #2EAF78;
+    width: 1640px;
+    height: 400px;
+    border: 20px solid #FFFCFC;
+    border-radius: 60px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 51px;
+}
+
+.calculator-rect label {
+    font-family: 'FiraGO', sans-serif;
+    font-size: 24px;
+}
+
+.calculator-rect input{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    background: #F9EBEB;
+    border: 3px solid #35B47E;
+    border-radius: 30px;
+}
+
+.calculator-rect select{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    background: #F9EBEB;
+    border: 3px solid #35B47E;
+    border-radius: 30px;
+}
+
+.calculator-rect button{
+    margin-top: 49px;
+    width: 256px;
+    height: 56px;
+    background: #F9EBEB;
+    border: 3px solid #35B47E;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.upper-calc{
+    display: flex;
+    margin-left: 150px;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.bottom-calc{
+    display: flex;
+    margin-left: 150px;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.gather-info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
